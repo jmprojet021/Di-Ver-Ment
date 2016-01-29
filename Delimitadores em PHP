@@ -1,0 +1,32 @@
+<?php
+//ALTERANDO DOCUMENTO PARA HTML
+header('Content-Type: text/html; charset=utf-8');
+
+//Comentário de código
+
+/*
+ * Comentário Recursivo
+ */
+
+/*
+  Comentário de várias linhas
+ */
+
+$ola = "Olá Mundo";
+$nome = "JM";
+
+echo $ola;
+echo "<hr>";
+
+echo '$ola';
+echo "<br>";
+echo "$ola";
+echo "<br>";
+echo $ola;
+echo "<br>";
+echo "{$ola}s";
+echo "<br>";
+echo "{$ola}, meu nome é {$nome}!";
+echo "<hr>";
+
+print("{$ola}<br>");
